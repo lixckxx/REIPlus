@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "reiplus",
+  "version": "${version}",
+  "name": "REI+",
+  "description": "Enhances REI search with math calculations and search history.",
+  "authors": ["lix"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lix.reiplus.ReiPlusMod"
+    ],
+    "modmenu": [
+      "com.lix.reiplus.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "reiplus.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10",
+    "cloth-config2": "*",
+    "roughlyenoughitems": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.lix.reiplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinREISearchBar",
+    "MixinTextFieldWidget"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
